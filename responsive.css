@@ -1,0 +1,77 @@
+@media (min-width: 1600px) { 
+    div {
+        width:300px; 
+        height: 300px; 
+        overflow: hidden;
+    }
+        
+    div img {
+        margin: -10px 0px 0px -10px;
+    }
+}
+@media (min-width: 1400px) and (max-width:1600px) { 
+    div {
+        width: 625px; 
+        height: 300px; 
+        overflow: hidden;
+    }
+        
+    div img {
+        margin: -10px 0px 0px -350px;
+    }
+}
+@media (min-width: 1200px) and (max-width:1400px) { 
+    div {
+        width: 300px; 
+        height: 625px; 
+        overflow: hidden;
+    }
+        
+    div img {
+        margin: -320px 0px 0px -10px;
+    }
+}
+@media (min-width: 1000px) and (max-width:1200px) { 
+    div {
+        width: 300px; 
+        height: 625px; 
+        overflow: hidden;
+    }
+        
+    div img {
+        margin: -350px 0px 0px -340px;
+    }
+}
+@media (min-width: 800px) and (max-width:1000px) { 
+    div {
+        width: 300px; 
+        height: 625px; 
+        overflow: hidden;
+    }
+        
+    div img {
+        margin: -320px 0px 0px -10px;
+    }
+}
+@media (min-width: 600px) and (max-width:800px) { 
+    div {
+        width: 625px; 
+        height: 300px; 
+        overflow: hidden;
+    }
+        
+    div img {
+        margin: -10px 0px 0px -350px;
+    }
+}
+@media (max-width: 600px) { 
+    div {
+        width:300px; 
+        height: 300px; 
+        overflow: hidden;
+    }
+        
+    div img {
+        margin: -10px 0px 0px -10px;
+    }
+}
